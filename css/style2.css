@@ -1,0 +1,42 @@
+@import url('reset.css');
+body{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	background: url('../images/achtergrond.gif') top repeat-x;
+	color:#533A85;
+	}
+h1{font-size:24px;font-weight:bold;margin-bottom:10px;}
+h2{font-size:20px;font-weight:bold;margin-bottom:10px;}
+p{margin-bottom:10px;font-size:12px;}
+	
+#container{ margin:0 auto; max-width:700px; width:100%;}
+header{float:left; width:100%;}
+header #logo{float:left;width:22.827442857%;margin-top:1px;}
+header #slogan{float:left;width:77.142857143%;}
+
+nav{float:left;width:22%; height:120px;}
+
+#teaser{float:left;width:75.142857143%;border:3px solid #D9CFEB;min-height:130px;margin-top:-50px;background:#EAE4F3;padding:0.94333962264%}
+
+#content{margin-top:20px;float:left;width:75.142857143%;border:3px solid #D9CFEB;min-height:270px;padding:0.94333962264%;}
+
+/* afbeeldingen in de content */
+#content .article{float:left;width:79.245283019%;}
+#content figure{float:left;width:19.230769231%;margin-left:10%;}
+
+footer{margin-top:20px; float:left;width:75.142857143%;}
+
+.hidden,figcaption{display:none;}
+
+img{width:100%}
+
+ @media screen and (max-width:700px){
+        body {
+           background:none;         
+        }        
+ }
+ 
+ @media screen and (max-width:480px){
+    h1{font-size:12px;}
+    h2{font-size:10px;}
+    nav ul li{float:left;}
+ }
